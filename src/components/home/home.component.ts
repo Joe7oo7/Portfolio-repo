@@ -52,4 +52,5 @@ export class HomeComponent implements OnInit {
     };
     const typed = new Typed('.typing-text', options);
   }
+
 }

@@ -19,31 +19,31 @@ interface SliderItem {
 export class AboutComponent implements OnInit{
   items: SliderItem[] = [
     {
-      image: '/assets/backgrounds/29371.jpg',
+      image: './assets/backgrounds/29371.jpg',
       design: '',
       title: 'Josephrex',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
     },
     {
-      image: '/assets/backgrounds/29371.jpg',
+      image: './assets/backgrounds/29371.jpg',
       design: '',
       title: 'Josephrex',
       description: 'I am Josephrex.Iam a BE ComputerScience Engineering Graduate.I have a Skilled Knowledge About Full Stack Web Development with Django and React'
     },
     {
-      image: '/assets/backgrounds/29371.jpg',
+      image: './assets/backgrounds/29371.jpg',
       design: '',
       title: 'Josephrex',
       description: 'I am Josephrex.Iam a BE ComputerScience Engineering Graduate.I have a Skilled Knowledge About Full Stack Web Development with Django and React'
     },
     {
-      image: '/assets/backgrounds/29371.jpg',
+      image: './assets/backgrounds/29371.jpg',
       design: '',
       title: 'Josephrex',
       description: 'I am Josephrex.Iam a BE ComputerScience Engineering Graduate.I have a Skilled Knowledge About Full Stack Web Development with Django and React'
     },
     {
-      image:'/assets/backgrounds/12874600_9Z_2102.w026.n002.120B.p1.120.jpg',
+      image:'./assets/backgrounds/12874600_9Z_2102.w026.n002.120B.p1.120.jpg',
       design: '',
       title: 'Josephrex',
       description: 'I am Josephrex.Iam a BE ComputerScience Engineering Graduate.I have a Skilled Knowledge About Full Stack Web Development with Django and React'
