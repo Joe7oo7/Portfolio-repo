@@ -1,0 +1,27 @@
+<div class="container-page">
+  <div class="slider">
+    <!-- list Items -->
+    <div class="list">
+      <div *ngFor="let item of items; let i = index" class="item" [class.active]="i === itemActive">
+        <img [src]="item.image" loading="lazy">
+        <div class="content">
+          <p>{{ item.design }}</p>
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+    <!-- button arrows -->
+    <div class="arrows">
+      <button id="prev" (click)="prevClick()">&lt;</button>
+      <button id="next" (click)="nextClick()">&gt;</button>
+    </div>
+    <!-- thumbnail -->
+    <div class="thumbnail">
+      <div *ngFor="let thumbnail of thumbnails; let i = index" class="item" [class.active]="i === itemActive"
+        (click)="onThumbnailClick(i)" [ngStyle]="{'background-image': 'url(' + thumbnail.image + ')'}">
+        <div class="content">Name Slider</div>
+      </div>
+    </div>
+  </div>
+</div>

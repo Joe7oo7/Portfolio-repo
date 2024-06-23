@@ -1,0 +1,21 @@
+.footer {
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align:center;
+  padding:20px;
+}
+.footer-links{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+.footer-links a{
+    color:white;
+    margin:0 20px;
+    text-decoration: none;
+    font-size:18px;
+}
+.footer-links a:hover{
+    color:aquamarine;
+    cursor: pointer;
+}

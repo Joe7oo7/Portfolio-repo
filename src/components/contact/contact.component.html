@@ -1,0 +1,10 @@
+<div class="container">
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <h3 class="text-center   hover-light text-decoration-underline">Mail Me</h3>
+    <formly-form [model]="model" [fields]="fields" [form]="form" [options]="options"></formly-form>
+    <button type="submit " class="btn btn-primary" [disabled]="!form.valid">Send</button>
+    <!-- <a href="https://www.freepik.com/free-ai-image/person-playing-3d-video-games-device_94950229.htm#fromView=image_search_similar&page=1&position=11&uuid=35d0cc08-341e-4058-a7db-d97ca1113294">Image by freepik</a> -->
+  </form>
+   
+</div>

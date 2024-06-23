@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap5/src/css/bootstrap.min.css";
+
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+:root {
+  --primary-color: rgb(60, 11, 165);
+  --secondary-color: rgb(136, 55, 228);
+  --accent-color: rgb(192, 173, 223);
+  --h1-text-color:rgb(255, 255, 255);
+  --h3-text-color:rgb(255, 255, 255);
+
+  
+  /* light theme */
+
+  --day-white: white;
+
+  /* dark theme */
+
+  --night-black: black;
+}
+
+body {
+  background:linear-gradient(to top,#b196f5,#6847d7); 
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.custom-control {
+  background-color: #0000008c;
+  color:rgb(255, 255, 255);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.358);
+ 
+}
+.custom-control:hover,.custom-control:active{
+  background-color: #ffffffb5;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.45);
+  color:black;
+
+}
+.custom-label{
+  color:rgba(255, 255, 255, 0.772)
+  
+}
+
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
